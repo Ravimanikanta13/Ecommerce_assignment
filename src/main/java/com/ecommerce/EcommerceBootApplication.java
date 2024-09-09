@@ -1,13 +1,10 @@
-package com.bezkoder.spring.datajpa;
-
+package com.ecommerce;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-
 @SpringBootApplication
-public class SpringBootDataJpaApplication {
+public class EcommerceBootApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringBootDataJpaApplication.class, args);
+		SpringApplication.run(EcommerceBootApplication.class, args);
 	}
-
 }
